@@ -59,12 +59,62 @@ npm run dev
 
 ---
 ✒️ Autor
-Desenvolvido com fogo e sangue por CODEWRANGLER-DEVGUI.
+Desenvolvido com fogo e sangue por **CODEWRANGLER-DEVGUI**.
 
 GitHub: [@CodeWrangler-DevGui](https://github.com/CodeWrangler-DevGui)
 
 LinkedIn: [Guilherme Araujo](https://www.linkedin.com/in/guilherme-araujo-lacerda)
 
 ---
+
+```
+HouseOfTheDragon-FanProject
+│
+├── 📁 app
+│   ├── 📁 dragon
+│   │   └── 📁 [id]
+│   │       └── 📄 page.tsx
+│   ├── 📁 font
+│   │   └── 📄 GOT.ttf
+│   ├── 🎨 globals.css
+│   ├── 🖼️ icon.png
+│   ├── 📄 layout.tsx
+│   └── 📄 page.tsx
+├── 📁 data
+│   └── 📄 dragons.ts
+├── 📁 public
+│   └── 📁 img
+│       ├── 🖼️ arrax.png
+│       ├── 🖼️ balerion.png
+│       ├── 🖼️ canibal.png
+│       ├── 🖼️ dragoes.png
+│       ├── 🖼️ dreamfyre.png
+│       ├── 🖼️ grey-ghost.png
+│       ├── 🖼️ meleys.png
+│       ├── 🖼️ meraxes.png
+│       ├── 🖼️ moondancer.png
+│       ├── 🖼️ morning.png
+│       ├── 🖼️ quicksilver.png
+│       ├── 🖼️ seasmoke.png
+│       ├── 🖼️ sheepstealer.png
+│       ├── 🖼️ silverwing.png
+│       ├── 🖼️ stormcloud.png
+│       ├── 🖼️ sunfyre.png
+│       ├── 🖼️ syrax.png
+│       ├── 🖼️ tessarion.png
+│       ├── 🖼️ tyraxes.png
+│       ├── 🖼️ vermax.png
+│       ├── 🖼️ verme-sangrento.png
+│       ├── 🖼️ vermithor.png
+│       └── 🖼️ vhagar.png
+├── ⚙️ .gitignore
+├── 📝 README.md
+├── 📄 eslint.config.mjs
+├── 📄 next.config.ts
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+├── 📄 postcss.config.mjs
+└── ⚙️ tsconfig.json
+```
 
 
