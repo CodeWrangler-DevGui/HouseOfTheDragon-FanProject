@@ -65,8 +65,8 @@ export default function Home() {
                 key={option}
                 onClick={() => setActiveFilter(option)}
                 className={`px-6 py-2 rounded-full font-bold transition-all border ${activeFilter === option
-                    ? 'bg-red-700 border-red-600 text-white shadow-[0_0_15px_rgba(185,28,28,0.4)]'
-                    : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:border-red-600 hover:text-white'
+                  ? 'bg-red-700 border-red-600 text-white shadow-[0_0_15px_rgba(185,28,28,0.4)]'
+                  : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:border-red-600 hover:text-white'
                   }`}
               >
                 {option}
@@ -93,8 +93,8 @@ export default function Home() {
                 {/* Etiqueta Visual da Facção no Canto da Imagem */}
                 {dragon.faction && (
                   <div className={`absolute top-4 right-4 px-3 py-1 rounded-md text-xs font-black uppercase tracking-tighter shadow-xl ${dragon.faction === 'Pretos' ? 'bg-black/80 text-red-500 border border-red-900 backdrop-blur-sm' :
-                      dragon.faction === 'Verdes' ? 'bg-black/80 text-emerald-500 border border-emerald-900 backdrop-blur-sm' :
-                        'bg-black/80 text-zinc-300 border border-zinc-600 backdrop-blur-sm'
+                    dragon.faction === 'Verdes' ? 'bg-black/80 text-emerald-500 border border-emerald-900 backdrop-blur-sm' :
+                      'bg-black/80 text-zinc-300 border border-zinc-600 backdrop-blur-sm'
                     }`}>
                     {dragon.faction}
                   </div>
@@ -131,6 +131,51 @@ export default function Home() {
             </div>
           )}
         </div>
+        {/* // Altere a abertura do seu main para incluir flex e flex-col */}
+        <main className="min-h-screen bg-zinc-950 text-zinc-100 p-8 flex flex-col">
+          <div className="max-w-7xl mx-auto w-full grow">
+
+            {/* ... Todo o seu conteúdo (Header, Busca, Grid) continua aqui ... */}
+
+            {/* O Rodapé dentro da div principal, mas com margem no topo automática */}
+            <footer className="mt-auto pt-16 pb-8 border-t border-zinc-800/50 text-center w-full">
+              <p className="text-zinc-500 text-[10px] tracking-[0.3em] uppercase mb-2">
+                Projetado e codificado por
+              </p>
+              <h3 className="text-2xl font-got text-white hover:text-red-600 transition-all duration-500 cursor-default tracking-widest">
+                CodeWrangler-DevGui
+              </h3>
+
+              <div className="flex justify-center gap-8 mt-6">
+                <a
+                  href="https://github.com/CodeWrangler-DevGui"
+                  target="_blank"
+                  className="text-zinc-500 hover:text-white transition-colors text-xs font-bold uppercase tracking-widest border-b border-transparent hover:border-red-600 pb-1"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://linkedin.com/in/guilherme-araujo-lacerda"
+                  target="_blank"
+                  className="text-zinc-500 hover:text-white transition-colors text-xs font-bold uppercase tracking-widest border-b border-transparent hover:border-red-600 pb-1"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://devgui.com.br"
+                  target="_blank"
+                  className="text-zinc-500 hover:text-white transition-colors text-xs font-bold uppercase tracking-widest border-b border-transparent hover:border-red-600 pb-1"
+                >
+                  Portfólio
+                </a>
+              </div>
+
+              <p className="text-zinc-700 text-[9px] mt-8 uppercase tracking-[0.5em]">
+                © 2026 • House of the Dragon Fan Project
+              </p>
+            </footer>
+          </div>
+        </main>
       </div>
     </main>
   );

@@ -245,7 +245,7 @@ export const dragonsData: Dragon[] = [
   },
   {
     id: "morning", 
-    name: "Manhã (Morning)", 
+    name: "Morning", 
     rider: "Rhaena Targaryen", 
     color: "Rosa e Negro",
     born: "130 d.C.", 
@@ -269,7 +269,7 @@ export const dragonsData: Dragon[] = [
   },
   {
     id: "stormcloud", 
-    name: "Stormcloud (Nuvem de Tempestade)", 
+    name: "Stormcloud", 
     rider: "Aegon III Targaryen", 
     color: "Cinza-azulado",
     born: "c. 120 d.C.", 
