@@ -19,7 +19,7 @@ export const dragonsData: Dragon[] = [
   {
     id: "balerion",
     name: "Balerion",
-    rider: "Aegon I / Maegor I / Viserys I",
+    rider: "Aegon I | Maegor I | Viserys I",
     color: "Negro",
     born: "c. 114 a.C. (em Valíria)",
     died: "94 d.C. (Velhice)",
@@ -31,7 +31,7 @@ export const dragonsData: Dragon[] = [
   {
     id: "vhagar", 
     name: "Vhagar", 
-    rider: "Aemond Targaryen (Guerra)", 
+    rider: "Visenya Targaryen | Laena Velaryon | Aemond Targaryen", 
     color: "Bronze envelhecido",
     born: "52 a.C.", 
     died: "130 d.C. (Batalha no Olho de Deus)",
@@ -54,7 +54,7 @@ export const dragonsData: Dragon[] = [
   {
     id: "quicksilver", 
     name: "Quicksilver", 
-    rider: "Aenys I / Aegon, o Sem Coroa", 
+    rider: "Aenys I | Aegon, o Sem Coroa", 
     color: "Branco Prateado",
     born: "7 d.C.", 
     died: "43 d.C. (Batalha sob o Olho de Deus)",
@@ -150,7 +150,7 @@ export const dragonsData: Dragon[] = [
   {
     id: "vermithor", 
     name: "Vermithor", 
-    rider: "Jaehaerys I / Hugh Hammer", 
+    rider: "Jaehaerys I | Hugh Hammer", 
     color: "Bronze",
     born: "c. 30 d.C.", 
     died: "130 d.C. (Segunda Batalha de Tumbleton)",
@@ -186,7 +186,7 @@ export const dragonsData: Dragon[] = [
   {
     id: "seasmoke", 
     name: "Seasmoke", 
-    rider: "Laenor Velaryon / Addam de Casco", 
+    rider: "Laenor Velaryon | Addam de Casco", 
     color: "Cinza-prateado",
     born: "Desconhecido", 
     died: "130 d.C. (Segunda Batalha de Tumbleton)",
@@ -210,7 +210,7 @@ export const dragonsData: Dragon[] = [
   {
     id: "silverwing", 
     name: "Silverwing", 
-    rider: "Alysanne Targaryen / Ulf o Branco", 
+    rider: "Alysanne Targaryen | Ulf o Branco", 
     color: "Prateado",
     born: "c. 36 d.C.", 
     died: "Desconhecido (Sobreviveu à Dança)",
