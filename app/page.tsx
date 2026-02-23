@@ -41,7 +41,7 @@ export default function Home() {
 
         <header className="text-center mb-12">
           <h1 className="text-5xl font-got font-normal text-red-600 mb-4 tracking-wider">
-            DRAGÕES TARGARYEN
+            DRAGOES TARGARYEN
           </h1>
           <p className="text-zinc-400 text-lg">
             Fogo e Sangue: Conheça as maiores feras de Valíria.
