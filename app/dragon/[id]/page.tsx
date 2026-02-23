@@ -1,4 +1,4 @@
-import { dragonsData } from '@/data/dragons';
+import { dragonsData } from '../../../data/dragons';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -64,8 +64,8 @@ export default async function DragonDetailsPage({ params }: { params: Promise<{ 
             </div>
           </div>
 
-          {/* Imagem de Destaque */}
-          <div className="relative h-96 md:h-125 w-full rounded-2xl overflow-hidden border border-zinc-800 shadow-[0_0_40px_rgba(0,0,0,0.8)]">
+          {/* IMAGEM DE DESTAQUE CORRIGIDA COM ASPECT-VIDEO */}
+          <div className="relative aspect-video w-full rounded-2xl overflow-hidden bg-black border border-zinc-800 shadow-[0_0_40px_rgba(0,0,0,0.8)]">
             <Image 
               src={dragon.imageUrl} 
               alt={dragon.name} 
